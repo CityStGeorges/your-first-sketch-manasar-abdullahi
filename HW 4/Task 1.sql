@@ -10,7 +10,7 @@ CREATE TABLE petPet (
   pet_species varchar(45) NOT NULL,
   pet_gender char(1) NOT NULL,
   pet_birth date NOT NULL,
-  pet_death date NOT NULL
+  pet_death date
   );
   
 CREATE TABLE petEvent (
