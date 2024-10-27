@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS petPet, petEvent;
 
 
 CREATE TABLE petPet (
-  pet_name varchar(20) NOT NULL,
+  pet_name varchar(20) PRIMARY KEY,
   pet_owner varchar(45) NOT NULL,
   pet_species varchar(45) NOT NULL,
   pet_gender char(1) NOT NULL,
