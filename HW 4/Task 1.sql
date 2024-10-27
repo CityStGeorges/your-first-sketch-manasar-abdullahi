@@ -16,7 +16,7 @@ CREATE TABLE petPet (
 CREATE TABLE petEvent (
     event_id INT PRIMARY KEY,
     pet_name VARCHAR(20) NOT NULL,
-    event_date date NOT NULL,
+    event_date date ,
     event_type VARCHAR(15) NOT NULL,
     remark varchar(255),
     pet_name_fk VARCHAR(20),
